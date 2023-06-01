@@ -1,6 +1,7 @@
 "use client";
 
 import { SafeUser } from "@/app/types";
+import Categories from "../categories/Categories";
 import Container from "../container/Container";
 import Logo from "./Logo";
 import Search from "./Search";
@@ -22,6 +23,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
           </div>
         </Container>
       </div>
+      <Categories />
     </div>
   );
 };
